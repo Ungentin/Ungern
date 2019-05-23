@@ -1,0 +1,24 @@
+/* Add your own CSS rules here */
+#description {
+  margin: 0 0 1em 0;
+}
+
+tei-teiHeader {
+  display: none;
+}
+
+tei-head {
+  color: violet; text-align: center; border: 1px solid red;
+}
+
+tei-p {
+  background-color: yellow color: blue; text-align: center; border: 1px solid green;
+}
+
+tei-postscript {
+  color: red
+}
+
+tei-postscript:before{
+  content:"Postscript"; color: blue
+}
